@@ -12,11 +12,11 @@ describe("Flatten an Array of Arbitrarily nested Arrays of Integers into a Flat 
 
   it("Should return a flat array when a flat array is provided", function() {
       expect(flatten([1, 2])).toEqual([1, 2]);
-  });        
+  });
 
   it("Should return [1,2,3,4] on [[1,2,[3]],4] provided", function() {
       expect(flatten([[1,2,[3]],4])).toEqual([1,2,3,4]);
-  });
+  });     
 
   it("Should return [1,3,5,6] on [[1,[3],5,6]] provided", function() {
       expect(flatten([[1,[3],5,6]])).toEqual([1,3,5,6]);
