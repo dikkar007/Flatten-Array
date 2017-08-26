@@ -18,7 +18,7 @@ var flatten = function(integers_array, flatten_array) {
             if (typeof value === 'number') {
                 all_results.push(value);
             } else if (value instanceof Array) {
-                flatten(value, all_results);
+                flatten(value, all_results);  
             }
         });
     }
