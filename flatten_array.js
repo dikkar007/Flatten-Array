@@ -5,7 +5,7 @@
  * @param  {Array} flatten_array  - Flatten array (for recursive mode) of Numbers
  * @return {Array}                - Array of Numbers
  *
- */
+ */   
 var flatten = function(integers_array, flatten_array) {
     // If this function is called in recursion mode, then we
     // need to keep previous recursion results.
